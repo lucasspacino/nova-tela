@@ -9,7 +9,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+    box-sizing: border-box; /**/
     
 }
 body, html{
@@ -27,7 +27,7 @@ section{
     background-color: #f7efd8;
     width: 250px;
     height: 500px;
-    border-radius: 20px;
+    border-radius: 20px; /*bordas redondas*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* deixando no meio da tela*/
@@ -36,9 +36,9 @@ section{
     transition: width .5s, heigth .5s; /*para fazer a transição quando esticar a tela*/
 }
 .img{
-   background: url(./imagens/imgrua.jpg);
+   background: url(./imagens/imgrua.jpg); /*colocando imagem através do css*/
    height: 200px;
-   background-position:top;
+   background-position:top; /*para o foco da imagem ser inicalmente do topo*/
 }
 .formulario{
     align-items: center;
