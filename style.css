@@ -33,7 +33,7 @@ section{
     transform: translate(-50%, -50%); /* deixando no meio da tela*/
     overflow: hidden; /* tudo que tiver fora da borda fica escondido*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.637);
-    
+    transition: width .5s, heigth .5s;
 }
 .img{
    background: url(./imagens/imgrua.jpg);
@@ -102,4 +102,43 @@ form{
 }
 .linksenha:hover{
     color: red;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1500px){
+body, html{
+    background-color: #212429;
+}
+section{
+        width: 80vw;
+        background-color: #556270;
+}
+
+.img{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.formulario{
+    margin-top: 100px;
+    color: #f7efd8;
+}
+.linksenha{
+    color: #f7efd8;
+}
+.linksenha:hover{
+    color: rgb(130, 214, 130);
+}
+#iconemail{
+    color: #f7efd8;
+}
+#iconsenha{
+    color: #f7efd8;
+}
+#iconentrar{
+    color: #f7efd8;
+}
+#iconregistrar{
+    color: #f7efd8;
+}
+
 }
